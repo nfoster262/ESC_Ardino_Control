@@ -19,7 +19,7 @@ double Ki = 0.05;   // Integral Gain
 double Kd = 0.00;   // Derivative Gain
 
 // ---------------------------------------------------------------------------
-// Globals
+// Constants
 // ---------------------------------------------------------------------------
 Servo esc;
 volatile unsigned long pulseCount = 0; // Volatile for interrupt access
